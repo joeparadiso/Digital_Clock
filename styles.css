@@ -13,10 +13,6 @@ body{
 }
 
 li {
-    /* font-family: "Orbitron", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal; */
     font-family: "Baumans", serif;
     font-weight: 400;
     font-style: normal;
@@ -24,20 +20,20 @@ li {
 
 .clock{
     border: 1px solid #606060;
-    width: 60em;;
+    width: 800px;
     color: rgb(114, 160, 225);
     padding: 5em;
     border-radius: 10px;
     background-color: #22222288;
     background: linear-gradient(-45deg, #08001f, #30197d);
+    box-shadow: 15px 15px 40px rgb(255, 4, 88);
 }
 
 #Date{
-    font-size: 20px !important;
+    font-size: 25px;
     text-align: center;
     align-items: center;
-    padding-right: 4.5em;
-    /* Baumans font from Google fonts */
+    justify-content: space-evenly;
     font-family: "Baumans", serif;
     font-weight: 400;
     font-style: normal;
@@ -46,8 +42,7 @@ li {
 .clock ul{
     list-style: none;
     display: flex;
-    align-items: center;
-    padding-left: .2em;
-    font-size: 16em;
-    gap: .1em;
+    font-size: 175px;
+    gap: 30px;
+    padding-left: 30px;
 }
